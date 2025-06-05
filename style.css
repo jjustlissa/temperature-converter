@@ -1,0 +1,71 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+    background-color: rgb(211, 231, 255);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+    font-size: x-large;
+}
+
+.temp-box {
+    width: 500px;
+    height: 250px;
+    border: 6px solid rgb(118, 180, 255);
+    border-radius: 16px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+#temp {
+    border: 2px solid rgb(73, 133, 207);
+    border-radius: 6px;
+    height: 20px;
+    width: 140px;
+}
+
+#fromUnit {
+    border: 2px solid rgb(73, 133, 207);
+    border-radius: 6px;
+    height: 25px;
+}
+#fromUnit:hover {
+    background-color: rgb(211, 231, 255);
+}
+
+#toUnit {
+    border: 2px solid rgb(73, 133, 207);
+    border-radius: 6px;
+    height: 25px;
+}
+#toUnit:hover {
+    background-color: rgb(211, 231, 255);
+}
+
+#convert {
+    border: 2px solid rgb(73, 133, 207);
+    border-radius: 6px;
+    height: 25px;
+    width: 100px;
+    background-color: white;
+}
+
+#convert:hover{
+    background-color: rgb(211, 231, 255);
+}
+
+#result {
+    padding: 30px;
+}
+
+input:focus,
+select:focus,
+button:focus {
+  border: 2px solid rgb(73, 133, 207); 
+  outline: none;
+}
